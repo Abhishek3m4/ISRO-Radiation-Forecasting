@@ -9,6 +9,9 @@ cdf = cdflib.CDF(
 )
 
 epoch = cdf.varget("Epoch")
+epoch = cdflib.cdfepoch.to_datetime(
+    cdf.varget("Epoch")
+)
 bgsm = cdf.varget("BGSM")
 
 df = pd.DataFrame({

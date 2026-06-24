@@ -7,9 +7,11 @@ file_path = r"data/raw/wind/wi_k0_swe_20260601_v01.cdf"
 cdf = cdflib.CDF(file_path)
 
 epoch = cdf.varget("Epoch")
+epoch = cdflib.cdfepoch.to_datetime(epoch)
 density = cdf.varget("Np")
 thermal_speed = cdf.varget("THERMAL_SPD")
 velocity = cdf.varget("V_GSE")
+
 
 df = pd.DataFrame({
     "Epoch": epoch,

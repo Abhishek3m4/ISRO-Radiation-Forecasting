@@ -7,6 +7,9 @@ cdf = cdflib.CDF(
 )
 
 epoch = cdf.varget("Epoch")
+epoch = cdflib.cdfepoch.to_datetime(
+    cdf.varget("Epoch")
+)
 
 df = pd.DataFrame({
     "Epoch": epoch,
