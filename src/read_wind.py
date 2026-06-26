@@ -2,7 +2,7 @@ import cdflib
 import pandas as pd
 import numpy as np
 
-file_path = r"data/raw/wind/wi_k0_swe_20260601_v01.cdf"
+file_path = r"data/raw/wind/wind_jan2015/wi_k0_swe_20150101_v01.cdf"
 
 cdf = cdflib.CDF(file_path)
 
