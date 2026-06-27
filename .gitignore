@@ -1,14 +1,31 @@
-venv/
+# Python
 __pycache__/
+*.pyc
 
-# raw NASA data
+# Virtual env
+venv/
+
+# Git
+.git/
+
+# Raw datasets
 data/raw/
+data/archive/
 
-# generated datasets
-data/processed/**/*.csv
-data/processed/*.csv
+# Processed datasets
+data/processed/
 
-# temporary files
+# Models
+*.pkl
+
+# Logs
 *.log
-*.tmp
+
+# Large files
 *.cdf
+*.csv
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
