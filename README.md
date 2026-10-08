@@ -26,6 +26,15 @@ The system processes **11 years of satellite radiation and solar-wind datasets**
 
 ---
 
+# 👥 Team GaganiX
+
+**Abhishek Ahirrao — Team Leader**  
+**Vaishnavi Pawar — Team Member**  
+**Ishaan Narakesari — Team Member**  
+**Vaidehi Shiras — Team Member**
+
+---
+
 # ✨ Key Features
 
 - 🛰️ **Satellite Radiation Analysis** — Processes energetic particle observations from satellite datasets.
