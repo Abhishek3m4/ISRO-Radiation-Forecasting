@@ -44,7 +44,7 @@ It processes **11 years of satellite radiation and solar-wind data** and generat
 
 # 📸 Project Dashboard
 
-The system provides an interactive interface for examining current radiation conditions and forecasting outputs.
+The system provides an interactive interface for examining radiation conditions and forecasting outputs.
 
 <div align="center">
 
@@ -80,25 +80,19 @@ The forecasting module provides multi-horizon predictions for energetic electron
 
 <table>
 <tr>
-<td align="center">
 
+<td align="center">
 <img src="assets/data_visualization.jpeg" width="420">
-
 <br>
-
 <b>Satellite / Solar-Wind Data Visualization</b>
-
 </td>
 
 <td align="center">
-
 <img src="assets/GOES_Electron_flux.jpeg" width="420">
-
 <br>
-
 <b>GOES Electron Flux Analysis</b>
-
 </td>
+
 </tr>
 </table>
 
@@ -120,31 +114,25 @@ The forecasting module provides multi-horizon predictions for energetic electron
 
 ---
 
-## 🔬 Additional Data Analysis
+# 🔬 Additional Scientific Data
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center">
 
+<td align="center">
 <img src="assets/IMF_data.jpeg" width="400">
-
 <br>
-
 <b>Interplanetary Magnetic Field Data</b>
-
 </td>
 
 <td align="center">
-
 <img src="assets/GOES_proton_data.jpeg" width="400">
-
 <br>
-
 <b>GOES Proton Data</b>
-
 </td>
+
 </tr>
 </table>
 
